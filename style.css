@@ -72,6 +72,11 @@ body {
   border-radius: 4px;
   max-width: 250px;
   cursor: pointer;
+  transition: .3s;
+}
+
+.conteudo button:hover{
+  background: #535066;
 }
 
 /* main */
@@ -161,6 +166,8 @@ li p {
   height: 150px;
   padding: 19px 24px;
   border: 1px solid #eaeaea;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .footer-container input,
@@ -168,6 +175,7 @@ li p {
 .footer-container button{
   width: 570px;
   border-radius: 4px;
+  color: #7c7c8a;
 }
 
 .footer-container input::-webkit-input-placeholder,
@@ -176,6 +184,11 @@ li p {
   color: #7c7c8a;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+}
+
+.footer-container input:focus,
+.footer-container textarea:focus{
+  outline: 1px solid #B3B3B3;
 }
  
 .footer-container button{
@@ -186,4 +199,10 @@ li p {
   font-weight: 700;
   font-family: 'Roboto', sans-serif;
   border: none;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.footer-container button:hover{
+  background: #535066;
 }
