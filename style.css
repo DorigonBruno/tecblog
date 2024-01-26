@@ -83,6 +83,8 @@ main{
 main h2{
   font-size: 2rem;
   margin-bottom: 60px;
+  color: #121214;
+  font-weight: 600;
 }
 
 ul{
@@ -93,7 +95,7 @@ ul{
 
 li{
   max-width: 389px;
-  margin-bottom: 60px;
+  margin-bottom: 32px;
 }
 
 figure{
@@ -112,6 +114,7 @@ li h3{
   margin-bottom: 12px;
   font-weight: 600;
   padding: 0 24px;
+  color: #121214;
 }
 
 li p {
@@ -120,4 +123,67 @@ li p {
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 27px;
+  color: #121214;
+}
+
+.footer-bg{
+  background: #f8f8ff;
+}
+
+.footer-container{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+.footer-container form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-container h3{
+  color: #121214;
+  margin-bottom: 24px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.footer-container input{
+  height: 60px;
+  padding: 19px 24px;
+  border: 1px solid #eaeaea;
+}
+
+.footer-container textarea{
+  resize: none;
+  height: 150px;
+  padding: 19px 24px;
+  border: 1px solid #eaeaea;
+}
+
+.footer-container input,
+.footer-container textarea,
+.footer-container button{
+  width: 570px;
+  border-radius: 4px;
+}
+
+.footer-container input::-webkit-input-placeholder,
+.footer-container textarea::-webkit-input-placeholder
+{
+  color: #7c7c8a;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+ 
+.footer-container button{
+  text-transform: uppercase;
+  padding: 14px 32px;
+  background: #846aff ;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  border: none;
 }
